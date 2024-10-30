@@ -1,0 +1,283 @@
+/**
+ * ----------------------------------------------------------------------------
+ * Frontend CSS
+ * ----------------------------------------------------------------------------
+ */
+
+/*
+** Block style
+*/
+.wp-block-cmg-form-block {
+    background: transparent 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    z-index: 1;
+}
+.wp-block-cmg-form-block.cmg-col-10 {
+    float: none;
+}
+.cmg_form_block_inner {
+    margin: 30px auto;
+    padding: 20px 20px 20px;
+    overflow: hidden;
+    position: relative;
+}
+.cmg_form_block_inner_inner {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.cmg_loading_div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255,255,255,0.3);
+    text-align: center;
+}
+.cmg_hidden {
+    display: none !important;
+}
+.cmg_form_left_side,
+.cmg_form_left_side.cmg-col-4 {
+    padding: 0;
+}
+.cmg_form_full_side {
+    margin: auto;
+    width: 100%;
+}
+.content_magnet_image {
+    background-size: cover;
+    background-position: center center;
+}
+.content_magnet_image img {
+    opacity: 0;
+}
+.content_magnet_image button:focus img {
+    /*opacity: 0 !important;*/
+}
+.content_magnet_image .components-button {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.content_magnet_image .components-button:focus:not(:disabled),
+.content_magnet_image .components-button:hover:not(:disabled),
+.content_magnet_image .components-button:not(:disabled):not([aria-disabled=true]):not(.is-secondary):not(.is-primary):not(.is-tertiary):not(.is-link):hover {
+    background-color: transparent;
+    box-shadow: none;
+    outline: none;
+}
+.cmg_form_right_side {
+    margin: 0 auto;
+    text-align: left;
+}
+.cmg_form_right_side.cmg-col-8 {
+    padding: 0;
+}
+.content_magnet_content {
+    padding-left: 20px;
+}
+.content_magnet_content h3,
+.editor-styles-wrapper .wp-block .content_magnet_content h3 {
+    line-height: 33px;
+    margin: 0 0 13px;
+    padding: 0;
+    text-align: left;
+    font-weight: normal;
+    text-transform: none;
+    letter-spacing: normal;
+}
+.content_magnet_content .cmg_subtitle,
+.editor-styles-wrapper .wp-block .content_magnet_content .cmg_subtitle {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 15px;
+    padding: 0;
+    text-align: left;
+    text-transform: none;
+    letter-spacing: normal;
+}
+button.cmg_submit_btn,
+.editor-styles-wrapper .editor-block-list__layout button.cmg_submit_btn {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    display: inline-block;
+    padding: 15px 12px 14px;
+    width: 33%;
+    margin: 0 auto;
+    background: #CC3333 0% 0% no-repeat padding-box;
+    border: none; /*2px solid #CC3333*/
+    border-radius: 4px;
+    color: #ffffff;
+    box-shadow: none;
+    cursor: default;
+}
+
+button.cmg_submit_btn:hover,
+.editor-styles-wrapper .editor-block-list__layout button.cmg_submit_btn:hover {
+    color: #ffffff;
+    box-shadow: none;
+}
+.cmg_submit_btn span {
+    padding-right: 6px;
+}
+
+input.cmg_email_field {
+    float: left;
+    width: 65%;
+    margin: 0 2% 0 auto;
+    color: #999999;
+    background: #EEEEEE 0% 0% no-repeat padding-box;
+    border: 2px solid #EEEEEE;
+    border-radius: 4px;
+    padding: 14px 20px 14px;
+    font-size: 14px;
+    line-height: normal;
+}
+
+.cmg_uploader_preview_image,
+.wp-core-ui .button.cmg_uploader_preview_image {
+    width: 100%;
+    height: 150px;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border: 1px solid #CCCCCC;
+    color: #555D66;
+}
+/* Settings side */
+.block_cmg_color_settings .components-color-palette__item-wrapper {
+    display: inline-block;
+    height: 28px;
+    width: 28px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.block_cmg_color_settings .components-color-palette {
+    margin-bottom: 30px;
+}
+.components-base-control.cmg_select_file_txt_control,
+.edit-post-settings-sidebar__panel-block .components-panel__body .components-base-control.cmg_select_file_txt_control {
+    margin-bottom: 10px;
+}
+.cmg_select_file_btn.button.button-large {
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border: 1px solid #CCCCCC;
+    color: #555D66;
+}
+.cmg_select_file_btn svg {
+    float: left;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+
+.cmg_checklist_fieds_max_h {
+    max-height: 190px;
+    overflow: auto;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 6px 6px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.block-editor-block-inspector .cmg_checklist_fieds .components-base-control {
+    margin-bottom: 10px;
+}
+
+.cmg_block_panel select.components-select-control__input {
+    margin: 10px auto 0;
+}
+
+.cmg-non-pro .components-dropdown.components-circular-option-picker__dropdown-link-action {
+    display: none;
+}
+/*
+* Responsive
+ */
+@media screen and (max-width: 767px) {
+    .cmg_form_right_side {
+        margin-top: 20px;
+    }
+    .content_magnet_content {
+        padding-left: 0;
+    }
+    .content_magnet_content h3,
+    .editor-styles-wrapper .wp-block .content_magnet_content h3 {
+        text-align: center;
+    }
+}
+/*
+* Bootstrap
+*/
+.cmg_row {
+    float: left;
+    width: 100%;
+    padding: 0;
+}
+
+.cmg-col-2, .cmg-col-3, .cmg-col-4, .cmg-col-5, .cmg-col-6, .cmg-col-7, .cmg-col-8, .cmg-col-9, .cmg-col-10, .cmg-col-11, .cmg-col-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 767px) {
+    .cmg-col-1, .cmg-col-2, .cmg-col-3, .cmg-col-4, .cmg-col-5, .cmg-col-6, .cmg-col-7, .cmg-col-8, .cmg-col-9, .cmg-col-10, .cmg-col-11, .cmg-col-12 {
+        float: left;
+    }
+
+    .cmg-col-12 {
+        width: 100%;
+    }
+
+    .cmg-col-11 {
+        width: 91.66666667%;
+    }
+
+    .cmg-col-10 {
+        width: 83.33333333%;
+    }
+
+    .cmg-col-9 {
+        width: 75%;
+    }
+
+    .cmg-col-8 {
+        width: 66.66666667%;
+    }
+
+    .cmg-col-7 {
+        width: 58.33333333%;
+    }
+
+    .cmg-col-6 {
+        width: 50%;
+    }
+
+    .cmg-col-5 {
+        width: 41.66666667%;
+    }
+
+    .cmg-col-4 {
+        width: 33.33333333%;
+    }
+
+    .cmg-col-3 {
+        width: 25%;
+    }
+
+    .cmg-col-2 {
+        width: 16.66666667%;
+    }
+
+    .cmg-col-1 {
+        width: 8.33333333%;
+    }
+}

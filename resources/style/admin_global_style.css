@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+.post-type-cmg_capture .bulkactions .hide-if-no-js,
+.post-type-cmg_capture .row-actions .edit,
+.post-type-cmg_capture .row-actions .hide-if-no-js,
+.post-type-cmg_capture #misc-publishing-actions,
+.post-type-cmg_capture .misc-pub-visibility,
+.post-type-cmg_capture .misc-pub-post-status {
+    display: none;
+}
+
+.mce-i-shortcode_button{
+    background-image: url("data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2224%22%20height%3D%2224%22%20viewBox%3D%220%200%2032%2032%22%3E%3Cpath%20fill%3D%22black%22%20d%3D%22M18.2%2C12.4h6.6c0.5%2C0%2C0.8-0.4%2C0.8-0.8V6.3c0-0.5-0.4-0.8-0.8-0.8h-6.6c-7%2C0-11.9%2C4.3-11.9%2C10.6c0%2C6.2%2C4.9%2C10.5%2C11.9%2C10.5h1%0A%09c0%2C0%2C0.1%2C0%2C0.1%2C0h5.4c0.5%2C0%2C0.8-0.4%2C0.8-0.8v-5.3c0-0.5-0.4-0.8-0.8-0.8c-0.5%2C0-0.8%2C0.4-0.8%2C0.8v4.4h-3.8v-3.6h1.9%0A%09c0.5%2C0%2C0.8-0.4%2C0.8-0.8c0-0.5-0.4-0.8-0.8-0.8h-3.9c-4.1%2C0-4.9-1.4-4.9-3.6C13.3%2C13.8%2C14.2%2C12.4%2C18.2%2C12.4z%20M18.2%2C21.3h0.3v3.6h-0.3%0A%09c-3%2C0-5.6-0.9-7.5-2.5C9%2C20.7%2C8%2C18.5%2C8%2C16c0-2.5%2C0.9-4.7%2C2.7-6.3c1.8-1.7%2C4.4-2.5%2C7.5-2.5H24v3.6h-3.7V8.4c0-0.5-0.4-0.8-0.8-0.8%0A%09s-0.8%2C0.4-0.8%2C0.8v2.3h-0.4c-4.4%2C0-6.6%2C1.7-6.6%2C5.3S13.8%2C21.3%2C18.2%2C21.3z%22%2F%3E%0A%3C%2Fsvg%3E");
+    background-repeat: no-repeat;
+}
+
+.clearfix {
+    display: flow-root;
+}
+
+.cmg_notice {
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.cmg_notice a.button {
+    margin: 10px auto 0;
+    display: inline-block;
+}

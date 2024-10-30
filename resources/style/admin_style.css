@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+
+.i_create_new_page_div {
+    display: none;
+    padding-top: 0;
+}
+.i_create_new_page_div > p:first-child {
+    margin-top: 0;
+}
+.cmg_fields_group {
+    margin: 30px auto;
+}
+.cmg_fields_group label {
+    min-width: 150px;
+    display: inline-block;
+}
+.cmg_metabox_content {
+    cursor: default;
+    padding: 30px 6px;
+}
+.metabox-holder:not(.columns-1) .cmg_fixed_metabox {
+    position: fixed;
+}
+.cmg_fixed_metabox h2 {
+    cursor: default;
+}
+
+
+.cmg_response {
+    position: fixed;
+    top: 40px;
+    z-index: 9;
+    background: #E84754 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #35353533;
+    border-radius: 4px;
+    margin: 10px auto;
+    padding: 20px;
+    display: none;
+    align-items: center;
+    color: #FFFFEA;
+    font-size: 17px;
+}
+.cmg_response_txt {
+    float: left;
+    margin: 0 20px;
+}
+.cmg_response i.fa {
+    float: left;
+    color: #000000;
+    font-size: 30px;
+}
+.cmg_response i.fa.fa-times {
+    font-size: 16px;
+}
+span.cmg_close_response {
+    color: #000;
+    font-weight: bold;
+    float: left;
+    cursor: pointer;
+}
+
+.cmg_response.cmg_resp_success {
+    background-color: #01CDCA;
+}
+.cmg_response.cmg_resp_loading {
+    color: #000000;
+    background-color: #FFED66;
+}
+.cmg_response.cmg_resp_error {
+    background-color: #E84754;
+}
+
+.cmg_btn.with_mgt {
+    margin-top: 20px;
+}
+
+.cmg_btn,
+a.cmg_btn,
+input[type="submit"].cmg_btn,
+input[type="button"].cmg_btn {
+    font-size: 13px;
+    cursor: pointer;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border: 1px solid #DDDDDD;
+    border-radius: 2px;
+    padding: 6px 16px 6px;
+    text-align: center;
+    color: #222222;
+    text-transform: none;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: normal;
+    outline: none;
+}
+.cmg_btn.cmg_btn-alert {
+    background-color: #E84754;
+}
+.cmg_option_div {
+    margin: 10px auto;
+}
+.cmg_option_div label {
+    width: 14%;
+    margin: 0 auto;
+    padding-right: 2%;
+    float: left;
+    color: #222222;
+    font-weight: bold;
+}
+.cmg_option_div input,
+.cmg_option_div textarea {
+    width: 82%;
+    float: left;
+    clear: none;
+    margin: 0 auto;
+}
+label.like_input {
+    color: #000000;
+    background: #D7D7D7 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    display: block;
+    padding: 5px 10px;
+}
+.cmg_option_options_div{
+    clear: both;
+    margin: 10px auto;
+}
+.cmg_option_div label.cmg_export_magnets_lbl {
+    float: none;
+}
+#cmg_export_from_magnets {
+    float: left;
+    margin-right: 10px;
+}
+.cmg_tbl {
+    min-width: 50%;
+}
+.cmg_tbl select{
+    margin: 0 auto;
+    width: 100%;
+}
+.cmg_tbl tr td {
+    padding-bottom: 10px;
+}
+.cmg_select_field {
+    min-width: 300px;
+}
+
+.cmg_checkbox_div {
+    margin: 4px auto;
+}
+.cmg_checkbox_div input{
+    margin-right: 10px;
+}
+
+.cmg_fieds_max_h {
+    max-height: 190px;
+    overflow: auto;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 2px 6px;
+}
+
+.clearfix {
+    display: flow-root;
+}
